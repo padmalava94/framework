@@ -20,7 +20,7 @@ public class Flipkart {
 		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
-		driver.get("https://flipkart.com");
+		driver.get("https://flipkart.com"); 
 		
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//div[@class='_2ISNhP _3AOFWO']/div/button")).click();
